@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Task</title>
+</head>
+
+<body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img1.png"  alt="medicine" width="140" height="45"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Location
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">L1</a></li>
+                            <li><a class="dropdown-item" href="#">L2</a></li>
+                            <li><a class="dropdown-item" href="#">L3</a></li>
+                        </ul>
+                </ul>
+                <ul class="nav justify-content-end">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Medicines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li><button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
+                                <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                            </svg> Cart</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row container m-5 py-4 bg-info bg-opacity-25 mx-auto">
+        <div class="col-md-6 col-12">
+            <h1><strong>Reliable on time <br> home delivery</strong></h1>
+            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem impedit hic odio ipsam facilis iusto
+                omnis! Laborum sunt nisi soluta voluptatum.</small><br><br>
+            <div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Medicines" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="py-2 text-danger">
+                <small><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-dot" viewBox="0 0 16 16">
+                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                    </svg>For Americans Only</small>
+            </div>
+            <div class="row text-center text-white ">
+                
+                <div class="col-5 bg-primary rounded-3 "><span><strong> 100% </strong><br> Delivery Sucess</span> </div>
+                <div class="col-1"></div>
+                <div class="col-5 bg-warning rounded-3 "><span><strong> 5.0(67k)</strong><br> Customer review</span> </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-12">
+            <img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" alt="" class="img-fluid py-4">
+        </div>
+
+
+    </div>
+    <br><br>
+
+
+
+    <div class="container-fluid bg-light pb-4">
+        <h1 class="text-center">Most Popular Products</h1><br>
+        <div class="row row-cols-1 row-cols-xs-6 row-cols-sm-3 row-cols-md-6 g-4 ">
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+
+        <div class="row row-cols-1 row-cols-md-1 g-4 container mx-auto">
+            <div class="col-md-6 col-12 card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Chat with the Doctor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+                                pariatur.
+                                Commodi fugit laborum soluta aut blanditiis itaque a, nulla rerum facilis aliquid?
+                                Necessitatibus, voluptas odio? Explicabo, quis officia. Facere, ratione.</p>
+                            <button type="button" class="btn btn-primary">Get Started</button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://source.unsplash.com/500x600/?human" class="img-fluid rounded-start" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Home delivery in 30 minutes</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+                                pariatur.
+                                Commodi fugit laborum soluta aut blanditiis itaque a, nulla rerum facilis aliquid?
+                                Necessitatibus, voluptas odio? Explicabo, quis officia. Facere, ratione.</p>
+                            <button type="button" class="btn btn-primary">Get Started</button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://source.unsplash.com/500x600/?human" class="img-fluid rounded-start" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div>
+        <h1 class="text-center m-4">Browse medicines and health products</h1>
+        <div class="row container mx-auto bg-primary bg-opacity-25 ">
+            <div class="col-md-2 col-4 py-3"><button type="button" class="btn btn bg-white">Baby care</button> </div>
+            <div class="col-md-2 col-4 py-3"><button type="button" class="btn btn bg-white">Family care</button> </div>
+            <div class="col-md-2 col-4 py-3"><button type="button" class="btn btn bg-white">Alternate</button> </div>
+            <div class="col-md-2 col-4 py-3"><button type="button" class="btn btn bg-white">Fitness</button> </div>
+            <div class="col-md-2 col-4 py-3"><button type="button" class="btn btn bg-white">Women's care</button> </div>
+            <div class="col-md-2 col-4 py-3"><button type="button" class="btn btn bg-white">Devices</button> </div>
+        </div>
+        <div class="row m-4">
+            <div class="col-md-3 col-12 py-3">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 py-3">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 py-3">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 py-3">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 py-3">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 py-3">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 py-3">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 py-3">
+                <div class="card h-100">
+                    <a href=""><img src="https://source.unsplash.com/WLUHO9A_xik/1600x900" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">item</h5>
+                        <p class="card-text">Rs. 100</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <button type="button" class="btn btn-primary">View more</button>
+        </div>
+    </div>
+
+    <div class="m-5">
+        <h1 class="text-center m-4">Customer review and recommendation</h1>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-secondary bg-opacity-25" data-bs-interval="10000">
+                    <div class=" container mx-auto">
+                        <div class="card mx-auto m-5" style="max-width: 900px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://source.unsplash.com/500x600/?human" class="img-fluid rounded  p-2"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text pt-5">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                            Nemo ullam, voluptate quam doloribus quis repellat tenetur at consequuntur,
+                                            sapiente in harum facilis aut sequi ratione velit minus consectetur
+                                            reiciendis asperiores. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                            elit. Alias ea voluptatum aperiam, odit in id minima sint nesciunt quibusdam
+                                            error, optio corrupti asperiores quis a. Neque laudantium voluptas molestias
+                                            beatae!</p>
+                                        <p class="card-text"><small class="text-muted">sajdb aihsdn afosj ashdi</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-secondary bg-opacity-50" data-bs-interval="2000">
+                    <div class="card mx-auto m-5" style="max-width: 900px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://source.unsplash.com/500x600/?human" class="img-fluid rounded  p-2"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nemo ullam, voluptate quam doloribus quis repellat tenetur at consequuntur,
+                                        sapiente in harum facilis aut sequi ratione velit minus consectetur
+                                        reiciendis asperiores.</p>
+                                    <p class="card-text"><small class="text-muted">snadk nafdsn kansif nsdfai</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-secondary bg-opacity-75">
+                    <div class="card mx-auto m-5" style="max-width: 900px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://source.unsplash.com/500x600/?human" class="img-fluid rounded  p-2"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nemo ullam, voluptate quam doloribus quis repellat tenetur at consequuntur,
+                                        sapiente in harum facilis aut sequi ratione velit minus consectetur
+                                        reiciendis asperiores.</p>
+                                    <p class="card-text"><small class="text-muted">asbd abduas abfojsbfo asih</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <div class="row container bg-light mx-auto">
+        <div class="col-md-6 col-12 pt-5">
+            <h1>Download the medicine mobile app</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere voluptatum totam possimus vero
+                exercitationem eum non voluptas. Quo sapiente iure vel modi iusto autem, delectus quam. Dicta quia
+                eligendi quasi.</p>
+            <button type="button" class="btn btn-primary">Download on the <br><strong>Apple Store</strong></button>
+            <button type="button" class="btn btn-secondary m-3">Get it from <br><strong>Google Play</strong></button>
+        </div>
+        <div class="col-md-6 col-12">
+            <img src="https://source.unsplash.com/WLUHO9A_xik/500x500" class="img-fluid rounded p-4" alt="">
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="row container m-5 ">
+            <div class="col-7">
+                <h2>medicine</h2>
+                <small>copyright@2021.medicine</small>
+            </div>
+            <div class="col-5">
+                <div class="row">
+                    <div class="col-3"><button type="button" class="btn btn bg-white">medicine</button></div>
+                    <div class="col-3"><button type="button" class="btn btn bg-white">medicine</button></div>
+                    <div class="col-3"><button type="button" class="btn btn bg-white">medicine</button></div>
+                    <div class="col-3"><button type="button" class="btn btn bg-white">medicine</button></div>
+                </div>
+                <p class="pr-5">Find us on: <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-app" viewBox="0 0 16 16">
+                            <path
+                                d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z" />
+                        </svg></a> <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-app" viewBox="0 0 16 16">
+                            <path
+                                d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z" />
+                        </svg></a> <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-app" viewBox="0 0 16 16">
+                            <path
+                                d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z" />
+                        </svg></a> <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-app" viewBox="0 0 16 16">
+                            <path
+                                d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z" />
+                        </svg></a> </p>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
